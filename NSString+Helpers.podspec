@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           	  = { "Bogdan Stasjuk" => "Bogdan.Stasjuk@gmail.com" }
   s.source           	  = { :git => "https://github.com/Bogdan-Stasjuk/NSString-Helpers.git", :tag => '0.1.6' }
   s.social_media_url 	  = 'https://twitter.com/Bogdan_Stasjuk'
-  s.platform     		    = :ios, '6.0'
+  s.platform     		    = :osx
   s.requires_arc 	      = true
   s.source_files 	      = 'NSString+Helpers/*.{h,m}'
   s.public_header_files = 'NSString+Helpers/*.h'
